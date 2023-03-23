@@ -1,0 +1,27 @@
+{% extends "sci_home_2023/layout/_base.html" %}
+{% load static %}
+
+{% block content %}
+
+<div class='max-w-[2560px] mx-auto'>
+    <div class='max-h-[1000px] relative'>
+        <div class='absolute w-full h-full bg-black/40 flex flex-col justify-center py-8 items-center '>
+            <p class='text-2x mt-15'></p>
+            <Link to="">
+            <button class='transform hover:scale-105 transition duration-700 ease-out text-white border bg-indigo-600 border-indigo-600 hover:bg-transparent rounded-md py-5 px-28 my-4 w-[400px] md:w-[600px]'>PHYSICAL-AI@science-counter</button>
+            </Link>
+            <Link to="">
+            <button class='transform hover:scale-105 transition duration-700 ease-out text-white border bg-indigo-600 border-indigo-600 hover:bg-transparent rounded-md py-5 px-28 my-4 w-[400px] md:w-[600px]'>A Breakaway New Paradigm In AI</button>
+            </Link>
+            <Link to="">
+            <button class='transform hover:scale-105 transition duration-700 ease-out text-white border bg-indigo-600 border-indigo-600 hover:bg-transparent rounded-md py-5 px-28 my-4 w-[400px] md:w-[600px]'>Descriptions Coming Soon...</button>
+            </Link>
+        </div>
+            <div class="z-2">
+            <video class='w-full h-[1000px] object-cover' src='{% static "media\earthcode.mp4" %}' autoplay="" muted="" loop="'true" />
+            </div>
+    </div>
+</div>
+
+
+{% endblock content %}

@@ -1,0 +1,19 @@
+<!-- templates/index.html -->
+
+{% extends "sci_home_2023/layout/_base.html" %}
+
+
+
+{% block content %}
+{% include 'sci_home_2023/components/hero.html' %}
+{% include 'sci_home_2023/components/description1.html' %}
+{% include 'sci_home_2023/components/description2.html' %}
+{% include 'sci_home_2023/components/products.html' %}
+<div class="container mx-auto bg-white px-[4vw] dark:bg-gray-800 tracking-[0.4px]" style="line-height: 1.75em;">
+{% include 'sci_home_2023/components/km.html' %}
+{% include 'sci_home_2023/components/beings.html' %}
+{% include 'sci_home_2023/components/medical.html' %}
+{% include 'sci_home_2023/components/genetics.html' %}
+{% include 'sci_home_2023/components/content.html' %}
+</div>
+{% endblock content %}

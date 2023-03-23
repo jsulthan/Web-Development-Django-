@@ -1,0 +1,59 @@
+{% extends "sci_home_2023/layout/_base.html" %}
+{% load static %}
+
+{% block content %}
+
+<div class='w-full max-h-[600px] bg-zinc-200 dark:bg-gray-700 flex flex-col justify-between'>
+    <div class='grid md:grid-cols-2 mx-auto max-w-[1600px] px-10'>
+        <div class='flex flex-col justify-center md:items-start w-full px-2 py-8'>
+            <p class='text-2x mt-15'></p>
+            <h1 class='py-3 text-2xl md:text-2xl font-bold mt-15 text-left dark:text-white'>AI For Genetics</h1>
+            <p class='text-md tracking-wide my-15 max-w-[850px] prose'></p>
+            <Link to="">
+            <a href="/contact" class='text-white border bg-indigo-600 border-indigo-600 hover:bg-transparent hover:text-indigo-600 rounded-md py-3 px-6 md:w-[200px%] my-4'>Learn more</a>
+            </Link>
+        </div>
+        <div>
+        <img class='w-full h-[350px] object-cover' src='{% static "media\DNA.jpg" %}' autoplay="" muted="'" loop="'true" />
+        </div>
+    </div>
+</div>
+
+<div class='w-full bg-zinc-100 dark:bg-gray-900 flex flex-col justify-between items-center border-b-4'>
+    <div class='mx-auto max-w-[1080px] px-10 prose'>
+        <div class='flex flex-col justify-center md:items-start w-full px-2 py-8 dark:text-gray-300'>
+            <h1 class='py-3 text-2xl md:text-2xl font-bold mt-15 text-left prose-headings dark:text-white'>AI For Genetics</h1>
+            <p class='tracking-wide my-15 prose dark:text-gray-300 text-lg leading-relaxed'>DNA, or deoxyribonucleic acid, is the hereditary material in humans
+                and almost all other organisms. Nearly every cell in a person's body has Human genome 
+                which is an instance of an unknown system of knowledge or unknown universe. Science 
+                  Counter has a grand theory on investigating and modeling this unknown universe...<br><br>
+
+                  The human genome is the complete set of genetic instructions contained within the DNA of a human being. The genome is made up of a long sequence of molecules called nucleotides, which are the building blocks of DNA. The specific order of these nucleotides, known as the genome sequence, carries all the information needed to build and maintain a human being. The human genome contains roughly 3 billion nucleotides, organized into 23 pairs of chromosomes. The sequence of the human genome is incredibly complex and contains a vast amount of information, including the instructions for building all the proteins in the human body. Understanding the genome sequence is essential for many fields of science, including genetics, medicine, and biotechnology.
+                    <br><br>
+                
+                  AI is being increasingly used in the field of genetics to analyze and interpret large amounts of genetic data. This can be used to identify patterns and correlations that may not be immediately apparent
+                   to human researchers. For example, our technology can be used to predict which genetic variations are associated with certain diseases or traits, and can also be used to design personalized treatment plans
+                    based on an individual's unique genetic makeup. Additionally, our technology can be used to predict the likelihood of an individual developing a particular condition, such as cancer, based on their genetic profile.
+                     This has the potential to revolutionize the way we understand and treat genetic disorders, and is already being used in a number of clinical settings to improve patient outcomes.
+                  <br><br>
+                  There are several ways in which artificial intelligence (AI) can help in genome research:
+                  <br><br>
+                  <span class='font-semibold'>1. Data analysis and interpretation:</span> AI algorithms can be used to analyze and interpret large amounts of genomic data, identifying patterns and correlations that may not be immediately apparent to human researchers.
+                  <br><br>
+                  <span class='font-semibold'>2. Gene function prediction:</span> AI can be used to predict the function of specific genes based on their sequence and the presence of certain genetic variations.
+                  <br><br>
+                  <span class='font-semibold'>3. Disease prediction:</span> AI can be used to predict the likelihood of an individual developing a particular condition, such as cancer, based on their genetic profile.
+                  <br><br>
+                  <span class='font-semibold'>4. Personalized medicine:</span> AI can be used to design personalized treatment plans based on an individual's unique genetic makeup, potentially improving patient outcomes.
+                  <br><br>
+                  <span class='font-semibold'>5. Drug discovery:</span> AI can be used to identify potential new drugs by analyzing the genetic changes that occur in response to different treatments.
+                  <br><br>
+                  Overall, the use of AI in genome research has the potential to greatly enhance and accelerate our understanding of genetics and improve human health.
+                  </p><br><br>
+                  <span class='font-semibold underline'></span>
+                  </p><br>
+          </div>
+      </div>
+  </div>
+
+{% endblock content %}

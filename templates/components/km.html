@@ -1,0 +1,40 @@
+{% load static %}
+{% block content %}
+
+<div class="mx-auto bg-gray-100 dark:bg-gray-900">
+    <div class="max-w-[490px] mx-auto bg-gray-100 lg:max-w-[1192px]">
+    
+    <section class="flex antialiased bg-white hover:bg-gray-200 text-gray-900 min-h-[540px] max-w-[1200px] dark:bg-gray-800 dark:hover:bg-gray-700 dark:text-white">
+      <a href="/kmpage">
+        <article class="mx-auto grid lg:grid-cols-1 items-center ml-5 mr-5 mt-10 mb-10">
+            <div class="lg:hidden relative block group mb-6">
+                <figure class="relative mt-10 lg:mt-0 h-0 pb-[56.25%] lg:pb-[56.25%] overflow-hidden">
+                    <img class="absolute inset-0 w-full h-full object-cover" src='{% static "media\kmpic.jpeg" %}' width="540" height="303" alt="Blog post"/>
+                </figure>
+            </div>
+                <header>
+                    <h3 class="text-2xl lg:text-3xl font-bold leading-tight mb-2 prose-headings:font-bold">
+                        <div class="hover:text-gray-900 transition duration-150 ease-in-out">Knowledgeable Machines</div>
+                    </h3>
+                </header>
+                <div class="block">
+                    <div class="hidden lg:block">
+                    <figure class="">
+                        <img class="lg:float-right w-[540px] h-[330px] ml-10" src='{% static "media\kmpic.jpeg" %}' width="540" height="330" alt="Blog post"/>
+                    </figure>
+                </div>
+                <p class="text-gray-500 font-poppins text-lg leading-relaxed dark:text-gray-300 text-justify">In today's economies, human activities are built around knowledge workers, who are to be knowledgeable in their practice. These knowledge workers are scarce resources, expensive and limited. A mechanic with accurate diagnosis, a lawyer pinpointing the relevant legal code, a medical doctor who detects cancer early, are all knowledgeable practitioners.<br>
+                    <br>
+                    1. How does one qualify a person as knowledgeable in their area of expertise (while there is no clear definition and measurable metrics for quantifying knowledgeability of a person)<br>
+                    2. Moreover, human experts most often are prone to not being able to perform their job ideally due to the human limitation in processing power, memory recollection, and lifespan, etc.
+                    <br><br>
+                    It would be desirable to augment and assist human experts with the machines to perform their job more thoroughly effectively. Such machines should posess a knowledgeable person's attributes such as possessing real knowledge of the field and certain level of cognition. Apparently, a technology to build such machines, falls into the realm of artificial intelligence (AI). These knowledge workers spend a lifetime to become an expert in the field of their study. Furthermore, these Knowledgeable beings or machines are desirable because a knowledgeable being or a machine is the mother of artificial intelligence. Now, Artificial Intelligence aims to assist in performing such human activities much faster and cheaper due to machines processing power and unlimited lifespan (cloud).
+                </p>
+                </div>
+                </article>
+    </a>
+    </section>
+    </div>
+    </div>
+
+{% endblock content %}

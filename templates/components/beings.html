@@ -1,0 +1,35 @@
+{% load static %}
+{% block content %}
+
+<div class="mx-auto bg-gray-100 dark:bg-gray-900 mt-10">
+    <div class="max-w-[490px] mx-auto bg-gray-100 lg:max-w-[1192px]">
+    
+    <section class="flex flex-col justify-center antialiased bg-white hover:bg-gray-200 text-gray-900 min-h-[540px] max-w-[1200px] dark:bg-gray-800 dark:hover:bg-gray-700 dark:text-white">
+        <a href="/beingspage">
+        <article class="mx-auto grid lg:grid-cols-2 gap-6 lg:gap-12 xl:gap-16 items-center ml-5 mr-5 mt-10 mb-10">
+            <div class="relative block group ">
+                <figure class="relative mt-10 lg:mt-0 h-0 pb-[56.25%] lg:pb-[56.25%] overflow-hidden">
+                    <img class="absolute inset-0 w-full h-full object-cover" src='{% static "media\auto.jpeg" %}' width="540" height="303" alt="Blog post"/>
+                </figure>
+            </div>
+            <div class=''>
+                <header>
+                    <h3 class="text-2xl lg:text-3xl font-bold leading-tight mb-2">
+                        <div class="hover:text-gray-900 transition duration-150 ease-in-out">Autonomous Intelligent Beings</div>
+                    </h3>
+                </header>
+                <p class="text-gray-500 font-poppins text-lg leading-relaxed dark:text-gray-300 text-justify">Intelligent systems of interest in the industry and people’s life such as, 
+                    decision making, autonomous systems, autonomous moving systems, content generation, control systems, question answering, knowledge discovery, 
+                    investigation of bodies of knowledge/data, are modeled, architectured, and implemented as systems comprising at least one state navigator, 
+                    in which the systems will respond in various forms in response of an input query or set of data in which a machine or a system changes its 
+                    state from a current state to a next or a future state. Methods are given to enable the systems to navigate through spaces either physical 
+                    spaces and/or a state space.</p>
+
+            </div>
+        </article>
+        </a>
+    </section>
+    </div>
+    </div>
+
+{% endblock content %}

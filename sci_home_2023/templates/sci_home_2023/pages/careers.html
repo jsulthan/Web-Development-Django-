@@ -1,0 +1,33 @@
+{% extends "sci_home_2023/layout/_base.html" %}
+{% load static %}
+
+{% block content %}
+
+<div class='w-full max-h-[600px] bg-zinc-200 dark:bg-gray-700 flex flex-col justify-between'>
+    <div class='grid md:grid-cols-2 mx-auto max-w-[1600px] px-10'>
+        <div class='flex flex-col justify-center md:items-start w-full px-2 py-8'>
+            <p class='text-2x mt-15'></p>
+            <h1 class='py-3 text-2xl md:text-2xl font-bold mt-15 text-left dark:text-white'>Careers</h1>
+            <p class='text-md tracking-wide my-15 max-w-[850px] prose'></p>
+
+        </div>
+        <div>
+        <img class='w-full h-[300px] object-cover' src='{% static "media\cirlc4.png" %}' autoplay="" muted="'" loop="'true" />
+        </div>
+    </div>
+</div>
+
+<div class='w-full bg-zinc-100 dark:bg-gray-900 flex flex-col justify-between items-center border-b-4 dark:text-gray-300'>
+    <div class='mx-auto max-w-[1080px] px-10 prose'>
+        <div class='flex flex-col justify-center md:items-start w-full px-2 py-8'>
+            <h1 class='py-3 text-2xl md:text-2xl font-bold mt-15 text-left prose-headings dark:text-white'>Join and put your strengths into good and exciting works</h1>
+            <p class="tracking-wide my-15 prose dark:text-gray-300 text-lg leading-relaxed">
+                We are seeking researchers with original publications and passion for fundamental and applied researches. <a href="/careers_form" class="text-green-400 dark:hover:text-gray-50 hover:text-gray-600"> Please submit your cv. </a><br><br>
+                Young scientists and recent graduates in all areas of electrical engineering, computer science and engineering, physics, biology and computational biology, mathematics, and
+                 mechanical enginering are encouraged to particpate to become part of a team with very exicting orginal areas of research and developments. At SCI you build something 
+                 extraordinarily useful immidiately after your groundbreaking research.
+            </p>
+    </div>
+</div>
+
+{% endblock content %}
